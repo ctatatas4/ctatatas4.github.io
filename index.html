@@ -12,16 +12,33 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
+      position: relative;
     }
     p {
       color: #f3e8ff;
       font-family: Georgia, serif;
       font-size: 2.5rem;
       letter-spacing: 0.02em;
+      position: relative;
+      z-index: 1;
+    }
+    .heart {
+      position: absolute;
+      opacity: 0.75;
     }
   </style>
 </head>
 <body>
+  <span class="heart" style="top:8%; left:7%; font-size:2.5rem;">❤️</span>
+  <span class="heart" style="top:15%; right:10%; font-size:1.5rem;">❤️</span>
+  <span class="heart" style="top:55%; left:5%; font-size:1.2rem;">❤️</span>
+  <span class="heart" style="bottom:12%; left:18%; font-size:2rem;">❤️</span>
+  <span class="heart" style="bottom:10%; right:8%; font-size:2.5rem;">❤️</span>
+  <span class="heart" style="top:40%; right:6%; font-size:1.4rem;">❤️</span>
+  <span class="heart" style="top:72%; right:22%; font-size:1rem;">❤️</span>
+  <span class="heart" style="top:5%; left:45%; font-size:1.3rem;">❤️</span>
+
   <p>do u still love me?</p>
 </body>
 </html>
