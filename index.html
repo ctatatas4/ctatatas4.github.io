@@ -3,56 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>do u still love me?</title>
+  <title></title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      background-color: #6b21a8;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      position: relative;
-    }
-
-    p {
-      color: #f3e8ff;
-      font-family: Georgia, serif;
-      font-size: 2.5rem;
-      letter-spacing: 0.02em;
-      position: relative;
-      z-index: 1;
-    }
-
-    .heart {
-      position: absolute;
-      background-color: #e02020;
-      transform: rotate(-45deg);
-    }
-    .heart::before, .heart::after {
-      content: "";
-      position: absolute;
-      background-color: #e02020;
-      border-radius: 50%;
-    }
-    .heart::before { top: -50%; left: 0; width: 100%; height: 100%; }
-    .heart::after  { top: 0; left: 50%; width: 100%; height: 100%; }
+    body { background: black; height: 100vh; display: flex; }
+    img { width: 100%; height: 100vh; object-fit: contain; }
   </style>
 </head>
 <body>
-
-  <div class="heart" style="width:30px;height:30px;top:8%;left:8%;opacity:0.9;"></div>
-  <div class="heart" style="width:18px;height:18px;top:14%;right:12%;opacity:0.75;"></div>
-  <div class="heart" style="width:24px;height:24px;top:60%;left:6%;opacity:0.8;"></div>
-  <div class="heart" style="width:22px;height:22px;bottom:14%;left:20%;opacity:0.85;"></div>
-  <div class="heart" style="width:32px;height:32px;bottom:10%;right:9%;opacity:0.9;"></div>
-  <div class="heart" style="width:16px;height:16px;top:38%;right:7%;opacity:0.7;"></div>
-  <div class="heart" style="width:14px;height:14px;top:75%;right:24%;opacity:0.65;"></div>
-  <div class="heart" style="width:20px;height:20px;top:6%;left:48%;opacity:0.75;"></div>
-
-  <p>do u still love me?</p>
-
+  <img src="foto.png">
 </body>
 </html>
